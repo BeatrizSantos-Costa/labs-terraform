@@ -2,9 +2,9 @@ resource "aws_s3_bucket" "nome-de-referencia-para-o-terraform" {
   bucket = "esse-e-o-nosso-primeiro-bucket-criado" # var.bucket_name
 
   tags = {
-    Name        = "POC-IAC"
-    Environment = "Dia-Estag"
-    Name        = "ESTAGIARIOS-LINDOS"
+    Name        = "POC-Terraform"
+    Environment = "Dia-SD"
+    Name        = "SD-APRENDENDO-TERRAFORM"
   }
 }
 
