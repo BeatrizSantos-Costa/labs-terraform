@@ -22,3 +22,7 @@ variable "volume_size_ebs2" {
   default = ""
   description = "Tamanho do volume EBS"
 }
+
+variable "kms" {
+  description = "ID da chave KMS"
+}
