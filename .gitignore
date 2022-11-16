@@ -13,8 +13,6 @@ crash.log
 # version control.
 #
 *.tfvars
-./s3/*.tfvars
-./terraform-modulos/*.tfvars
 
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
