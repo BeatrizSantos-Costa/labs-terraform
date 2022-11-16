@@ -10,11 +10,7 @@ variable "volume_type" {
   description = "Tipo do Volume EBS"
 }
 
-variable "volume_size_ebs1"{
-  description = "Tamanho do volume EBS"
-}
-
-variable "volume_size_ebs2" {
+variable "volume_size_ebs"{
   description = "Tamanho do volume EBS"
 }
 
