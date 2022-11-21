@@ -6,8 +6,6 @@ resource "aws_instance" "instance_t2" {
     device_name = "/dev/xvda"
     volume_size = var.volume_size_ebs
     volume_type = var.volume_type
-    encrypted   = true
-    kms_key_id  = var.kms
     tags = {
       Name = "POC-Terraform"
     }
