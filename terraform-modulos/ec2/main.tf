@@ -9,11 +9,11 @@ resource "aws_instance" "instance_t2" {
     encrypted   = true
     kms_key_id  = var.kms
     tags = {
-      Name = "POC-Terraform"
+      Name = "POC-Terraform-modulos"
     }
   }
   tags = {
-    Name = "POC-Terraform"
+    Name = "POC-Terraform-modulos"
   }
 }
 
