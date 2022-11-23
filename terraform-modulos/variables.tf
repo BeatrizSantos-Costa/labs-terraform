@@ -1,6 +1,10 @@
+# ----- Module KMS
+
 variable "name_kms_alias" {
   description = "Alias da chave KMS"
 }
+
+# ----- Module EC2
 
 variable "instance_type" {
   description = "Tipo da Intancia EC2"
