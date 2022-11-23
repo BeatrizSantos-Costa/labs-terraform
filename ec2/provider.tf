@@ -1,9 +1,9 @@
 terraform {
-  # backend "s3" {
-  #   bucket = "poc-terraform-sd"
-  #   key    = "compute/ec2/terraform.tfstate"
-  #   region = "us-east-1"
-  # }
+  backend "s3" {
+    bucket = "esse-e-o-nosso-primeiro-bucket-criado"
+    key    = "compute/ec2/terraform.tfstate"
+    region = "us-east-1"
+  }
 
   required_providers {
     aws = {
