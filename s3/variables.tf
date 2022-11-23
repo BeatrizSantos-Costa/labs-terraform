@@ -1,7 +1,7 @@
 variable "definicao_acl" {
-  default = ""
+  default = "public-read-write"
 }
 
 variable "bucket_name" {
-  default = ""
+  default = "oi-esse-e-o-nosso-primeiro-bucket-criado-no-treinamento"
 }

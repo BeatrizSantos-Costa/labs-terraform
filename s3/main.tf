@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "nome-de-referencia-para-o-terraform" {
+resource "aws_s3_bucket" "bolinha" {
   bucket = "esse-e-o-nosso-primeiro-bucket-criado" # var.bucket_name
 
   tags = {
@@ -8,8 +8,8 @@ resource "aws_s3_bucket" "nome-de-referencia-para-o-terraform" {
   }
 }
 
-resource "aws_s3_bucket_acl" "acl_bucket_estag" {
-  bucket = aws_s3_bucket.nome-de-referencia-para-o-terraform.id
+resource "aws_s3_bucket_acl" "acl_bucket_sd" {
+  bucket = aws_s3_bucket.bolinha.id
   acl    = var.definicao_acl
 }
 
